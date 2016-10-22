@@ -1,5 +1,5 @@
 {
-  "name": "echo-server",
+  "name": "echo-server-with-api",
   "version": "1.0.0",
   "description": "a simple http echo server",
   "main": "index.js",

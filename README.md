@@ -1,7 +1,7 @@
 # echo-server-with-api
 a simple http echo server that can be started and stopped programmatically through an API to help testing http clients
 
-* all http requests are answered with a `200` OK status code, and a JSON representation of the request data (echo) as the body of the request
+* all http requests are answered with a `200` OK status code, and a JSON representation of the request data as the body of the request (echo)
 
 * add `?status=xxx` to the request url to have the server respond with `xxx` as the http-status-code (you still get the echo as the response body)
 
@@ -105,6 +105,15 @@ stops the echo server. if a `callback` is used it will run once the server has f
 `stopSync()`
 
 like `stop()`, just **synchronously**
+
+`location`
+
+the url where the server can be reached. normally this is something like `http://localhost:1234`.
+when the server is not running, this is an empty string
+
+`isListening`
+
+a boolean. `true` when the server is running. `false` otherwise
 
 
 ---

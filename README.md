@@ -1,4 +1,4 @@
-# echo-server
+# echo-server-with-api
 a simple http echo server that can be started and stopped programmatically through an API to help testing http clients
 
 * all http requests are answered with a `200` OK status code, and a JSON representation of the request data (echo) as the body of the request

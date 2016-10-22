@@ -5,7 +5,7 @@ var echoServer = require('../index.js');
 
 describe('echo server', () => {
 
-    afterEach(echoServer.stop);
+    afterEach(done => echoServer.stop(done));
 
     it('can be started async', done => {
         echoServer.start(done);

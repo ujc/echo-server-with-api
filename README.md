@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ujc/echo-server-with-api.svg?branch=master)](https://travis-ci.org/ujc/echo-server-with-api)
+
 # echo-server-with-api
 a simple http echo server that can be started and stopped programmatically through an API to help testing http clients
 

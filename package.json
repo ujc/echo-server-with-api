@@ -1,0 +1,31 @@
+{
+  "name": "echo-server",
+  "version": "1.0.0",
+  "description": "a simple http echo server",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie": "^0.3.1",
+    "deasync": "^0.1.8",
+    "express": "^4.14.0",
+    "get-port-sync": "^1.0.0",
+    "server-destroy": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/node": "^6.0.45",
+    "@types/should": "^8.1.30",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "request": "^2.75.0"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.spec.js",
+    "watch": "mocha -w test/**/*.spec.js"
+  },
+  "author": {
+    "name": "Uri Chandler",
+    "url": "https://blog.kungfoo.bar/"
+  },
+  "license": "MIT"
+}
